@@ -1,0 +1,21 @@
+{
+    "name" : "node-login-express",
+    "version": "0.0.0-1",
+    "keywords" : [
+        "express",
+        "login",
+        "redis",
+        "formidable",
+        "ejs"
+    ],
+    "main" : "server.js",
+    "description" : "learn yourself an express login with connect-store using redis",
+    "dependencies" : {
+        "express" : "",
+        "ejs" : "",
+        "redis" : "",
+        "hiredis" : "",
+        "connect-redis" : "",
+        "formidable" : ""
+    }
+}
