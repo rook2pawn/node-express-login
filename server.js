@@ -1,10 +1,4 @@
 var express = require('express');
-var argv = require('optimist')
-    .usage('Usage: $0 --port=<portnum>\nvisit localhost:port')
-    .alias('p', 'port')
-    .describe('p', 'Specify the port you want the server to run on')
-    .argv
-;
 var formidable = require('formidable');
 var fs = require('fs');
 var Redis = require('connect-redis')(express);
@@ -84,6 +78,6 @@ server.post('/register', function(req,res) {
     }); 
 });
 
-var port = argv.port || argv.p || 4000;
+var port = 4000;
 console.log('Listening on ' + port);
 server.listen(port);
