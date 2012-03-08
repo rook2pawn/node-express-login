@@ -1,5 +1,6 @@
 {
-    "name" : "node-login-express",
+    "name" : "express-login",
+    "author" : "David Wee <rook2pawn@gmail.com> (http://rook2pawn.com)",
     "version": "0.0.0-1",
     "keywords" : [
         "express",
@@ -8,6 +9,11 @@
         "formidable",
         "ejs"
     ],
+    "homepage" : "https://github.com/rook2pawn/node-express-login",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rook2pawn/node-express-login.git"
+    },
     "main" : "server.js",
     "description" : "learn yourself an express login with connect-store using redis",
     "dependencies" : {
