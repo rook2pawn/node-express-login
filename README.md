@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/rook2pawn/node-express-login.png)](http://travis-ci.org/rook2pawn/node-express-login)
 node-express-login
 ==================
 
