@@ -9,31 +9,6 @@
     <form action="/logout" method='post'>
         <input type='submit' value='logout'>
     </form>
-<% } else { %>
-    <h2>Login</h2>
-    <form action="/login" method='post' id='login'>
-        name <input type='text' name='name' value=''>
-        <p>
-        pw <input type='password' name='password' value=''>
-        <input type='submit'>
-        <% if ((error) && (error.login)) {  
-                if (error.username) { %> 
-                    username NOT FOUND
-                <% } 
-                if (error.password) { %>
-                    password IS INCORRECT 
-                <% }  
-        }  %>
-    </form>
-    <h2>register</h2>
-    <form action='/register' method='post'>
-        username <input type='text' name='name' value=''>
-        <p>
-        desired pw <input type='password' name='password' value=''>
-        <input type='submit' value='register!'>
-        <% if ((error) && (error.register)) { %>
-                username IS ALREADY TAKEN
-        <% } %>
-    </form>
+
 <% } %>
 </body>
