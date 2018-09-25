@@ -1,27 +1,29 @@
 {
-    "name" : "express-login",
-    "author" : "David Wee <rook2pawn@gmail.com> (http://rook2pawn.com)",
+    "name": "express-login",
+    "author": "David Wee <rook2pawn@gmail.com> (http://rook2pawn.com)",
     "version": "0.0.2",
-    "keywords" : [
+    "keywords": [
         "express",
         "login",
         "redis",
         "formidable",
         "ejs"
     ],
-    "homepage" : "https://github.com/rook2pawn/node-express-login",
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/rook2pawn/node-express-login.git"
+    "homepage": "https://github.com/rook2pawn/node-express-login",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rook2pawn/node-express-login.git"
     },
-    "main" : "server.js",
-    "description" : "learn yourself an express login with connect-store using redis",
-    "dependencies" : {
-        "express" : "",
-        "ejs" : "",
-        "redis" : "",
-        "hiredis" : "",
-        "connect-redis" : "",
-        "formidable" : ""
+    "main": "server.js",
+    "description": "learn yourself an express login with connect-store using redis",
+    "dependencies": {
+        "connect-redis": "",
+        "cookie-parser": "^1.4.3",
+        "ejs": "",
+        "express": "",
+        "express-session": "^1.15.6",
+        "formidable": "",
+        "hiredis": "",
+        "redis": ""
     }
 }
